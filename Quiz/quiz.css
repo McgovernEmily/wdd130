@@ -1,0 +1,32 @@
+img {
+    width: 350px;
+    float: right;
+    padding: 15px;
+}
+section {
+    margin: 50px;
+    background-color: lightgray;
+    border: solid 2px black;
+    border-radius: 5px;
+    color: purple;
+}
+.violin-heading {
+    color: orange;
+}
+.clear  {
+    clear: both;
+}
+h1 {
+    font-size: 2em;
+}
+.first {
+    margin: 20px 50px;
+}
+.larger {
+    font-size: 3em;
+    background: blue;
+    text-align: center;
+}
+
+
+
