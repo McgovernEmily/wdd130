@@ -1,0 +1,32 @@
+body {
+    background-color: #1e1e1e;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4,1fr);
+}
+.box {
+    background-color: white;
+    grid-row: 1/5;
+    grid-column: 1;
+    z-index: -5;
+    margin: auto;
+    width: 350px;
+    height: 700px;
+}
+img {
+    z-index:5;
+    float: right;
+}
+.body-text {
+    grid-row: 3;
+    grid-column: 1;
+    z-index: 5;
+    text-align: center;
+
+}
+.footer {
+    z-index: 5;
+    grid-column: 1;
+    grid-row: 4;
+
+}
