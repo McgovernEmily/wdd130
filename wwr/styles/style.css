@@ -197,6 +197,142 @@ main section img    {
    grid-row: 5/8;
    box-shadow: 5px 5px 10px #6f7364;
 }
+.one{
+    height: 725px;
+    background-color:#ffbf69 ;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.two {
+    height: 725px;
+    background-color:#ffbf69 ;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.three {   
+    height: 725px;
+    background-color:#ffbf69 ;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.four {
+    height: 725px;
+    background-color:#ffbf69 ;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.five {
+    height: 725px;
+    background-color:#ffbf69 ;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.six {
+    height: 725px;
+    background-color:#ffbf69 ;
+    margin-top: 80px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.paragraphs1 {
+    color: white;
+    background-color: #2ec4b6;
+    font-size: 20px;
+    font-family: "Overpass", Helvetica, sans-serif;
+    line-height: 1.5em;
+    padding: 35px;
+    box-shadow: 5px 5px 10px #6f7364;
+    margin-right: 800px;
+    margin-top: 50px;
+    margin-left: 40px;
+}
+.paragraphs2 {
+    color: white;
+    background-color: #2ec4b6;
+    font-size: 20px;
+    font-family: "Overpass", Helvetica, sans-serif;
+    line-height: 1.5em;
+    padding: 35px;
+    box-shadow: 5px 5px 10px #6f7364;
+    margin-right: 800px;
+    margin-top: 80px;
+    margin-left: 40px;
+}
+.paragraphs3 {
+    color: white;
+    background-color: #2ec4b6;
+    font-size: 20px;
+    font-family: "Overpass", Helvetica, sans-serif;
+    line-height: 1.5em;
+    padding: 35px;
+    box-shadow: 5px 5px 10px #6f7364;
+    margin-right: 800px;
+    margin-top: 160px;
+    margin-left: 40px;
+}
+.paragraphs5 {
+    color: white;
+    background-color: #2ec4b6;
+    font-size: 20px;
+    font-family: "Overpass", Helvetica, sans-serif;
+    line-height: 1.5em;
+    padding: 35px;
+    box-shadow: 5px 5px 10px #6f7364;
+    margin-right: 800px;
+    margin-top: 50px;
+    margin-left: 40px;
+}
+.paragraphs6 {
+    color: white;
+    background-color: #2ec4b6;
+    font-size: 25px;
+    font-family: "Overpass", Helvetica, sans-serif;
+    line-height: 1.5em;
+    padding: 35px;
+    box-shadow: 5px 5px 10px #6f7364;
+    margin-right: 900px;
+    margin-top: 200px;
+    margin-left: 40px;
+}
+.paragraph {
+    color: white;
+    background-color: #2ec4b6;
+    font-size: 16px;
+    font-family: "Overpass", Helvetica, sans-serif;
+    line-height: 1.5em;
+    padding: 35px;
+    box-shadow: 5px 5px 10px #6f7364;
+    margin-right: 700px;
+    margin-top: 43px;
+    margin-left: 30px;
+    z-index: 5;
+    position:absolute;
+}
+.sub-title {
+vertical-align: center;
+text-align: left;
+padding-top: 25px;
+padding-left: 30px;
+}
+.section-img {
+    box-shadow: 5px 5px 10px #6f7364;
+    float: right;
+    margin: 50px;
+    margin-top: 200px;
+    height: 380px;
+    position: relative;
+
+}
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
