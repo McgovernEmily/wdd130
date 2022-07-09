@@ -18,8 +18,8 @@
             <nav>
                 <a href="index.html">Home</a>
                 <a href="faq.html">FAQ</a>
-                <a href="site-plan.html">Site Plan</a>
                 <a href="jewelry.html">Jewelry</a>
+                <a href="site-plan.html">site-plan</a>
             </nav>
         </header>
             <!-- The video -->
@@ -32,26 +32,10 @@
     <h1>KelsJewels</h1>
     <p>Come get your jewelry...</p>
     <!-- Use a button to pause/play the video with JavaScript -->
-    <button id="myBtn" onclick="myFunction()">Pause</button>
+    <form action="jewelry.html">
+    <input id="myBtn" type="submit" Value="BUY TODAY">
+    </form>
   </div>
-  <script>
-    // Get the video
-    var video = document.getElementById("myVideo");
-    
-    // Get the button
-    var btn = document.getElementById("myBtn");
-    
-    // Pause and play the video, and change the button text
-    function myFunction() {
-      if (video.paused) {
-        video.play();
-        btn.innerHTML = "Pause";
-      } else {
-        video.pause();
-        btn.innerHTML = "Play";
-      }
-    }
-    </script>
        <!-- <div id="top-page">          
             <div id="top-box">
                 <img id="top-img" src="images/rsz_1twobraclets.jpg" alt="All the Jewls">
