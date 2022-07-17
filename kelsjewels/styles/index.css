@@ -40,7 +40,8 @@ nav a {
 }
 #top-img {
   width: 100%;
-  height: 80%;
+  height: 950px;
+  object-fit: cover;
 }
 #top-background {
     height: 725px;
@@ -86,7 +87,7 @@ nav a:hover {
 body {
     background-color:#ffffff ;
     font-size: 22px;
-    margin: 0;
+    margin: auto;
     padding: 0;
 }
 .home-mid h1 {
@@ -102,7 +103,7 @@ body {
 .chain-card {
     grid-column: 1/2;
     margin: 50px 0;
-    margin-left: 70px;
+    margin-left: 160px;
 }
 .card-img:hover {
     opacity: .6 ;
@@ -112,6 +113,7 @@ body {
     grid-column: 3/4;
     position: relative;
     margin-top: 100px;
+    margin-right: 150px;
 }
 .card-img   {
     border: 10px solid #8C4B8F;
@@ -124,10 +126,11 @@ body {
     font-family: "Cormorant Garamond", serif;
 }
 .chain-card h2{
-    margin-left: 10px;
+    margin-left: -5px;
 }
 .flower-card h2 {
-    margin-right: 60px;
+    margin-right: 20px;
+    margin-left: 40px;
 }
 .msgs   {
     display: grid;
@@ -144,10 +147,12 @@ body {
     grid-row: 1;
     text-align: center;
     margin: 140px;
+    margin-top: 90px;
     color: #C2C2C2;
 }
 .msg p  {
     font-family: "Cormorant Garamond", serif;
+    line-height: 50px;
 }
 #background {
     grid-column: 1/4;
@@ -199,14 +204,35 @@ footer .social img {
     background: rgba(0, 0, 0, 0.5);
     color: #f1f1f1;
     width: 100%;
-    padding: 20px;
     position: relative;
     bottom: 550px;
+    height: 180px;
+  }
+  .content1 {
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    position: relative;
+    bottom: 550px;
+    height: 130px; 
   }
   .content h1,p   {
       text-align: center;
   }
-  
+  .content h1 {
+      margin-bottom: -10px;
+  }
+.content1 h1,p   {
+    text-align: center;
+}
+.content1 h1 {
+    margin-bottom: -10px;
+    padding-top: 10px;
+}
+.content1 p{
+    padding-top: -5px;
+    padding-bottom: 10px;
+}
   /* Style the button used to pause/play the video */
   #myBtn {
     width: 200px;
@@ -226,54 +252,53 @@ footer .social img {
     color: black;
   }
   #FAQ-msg  {
-      grid-column: 1/4;
-      grid-row: 1;
-      width: 200px;
-      position: relative;
-      margin-left: 500px;
-      margin-top: 10px;
-      text-align: center;
-      font-size: 80px;
-      padding: 10px;
-      border: none;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    position: relative;
+    bottom: 900px;
+    grid-column: 1/4;
+    text-align: center;
+    height: 150px;
   }
-  .FAQ-title   {
-      color: black;
-      width: 500px;
+  #FAQ-msg h1 p {
       text-align: center;
-      border-radius: 20px;
   }
 .one{
     height: 725px;
     background-color:#4B2B5E ;
-    margin-bottom: 100px;
-    margin-top: 100px;
+    margin-bottom: 50px;
+    margin-top: -130px;
     margin-left: 20px;
     margin-right: 20px;
+    font-family: "Cinzel Decorative", cursive;
 }
 .two {
     height: 725px;
     background-color:#4B2B5E ;
-    margin-top: 100px;
-    margin-bottom: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
     margin-left: 20px;
     margin-right: 20px;
+    font-family: "Cinzel Decorative", cursive;
 }
 .three {   
     height: 725px;
     background-color:#4B2B5E ;
-    margin-top: 100px;
-    margin-bottom: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
     margin-left: 20px;
     margin-right: 20px;
+    font-family: "Cinzel Decorative", cursive;
 }
 .four {
     height: 725px;
     background-color:#4B2B5E;
-    margin-top: 100px;
-    margin-bottom: 100px;
+    margin-top: 50px;
+    margin-bottom: -30px;
     margin-left: 20px;
     margin-right: 20px;
+    font-family: "Cinzel Decorative", cursive;
 }
 .paragraphs1 {
     color: white;
@@ -282,7 +307,7 @@ footer .social img {
     font-family: "Cormorant Garamond", serif;
     line-height: 1.5em;
     padding: 35px;
-    box-shadow: 5px 5px 5px 5px gray;
+    box-shadow: -5px 4px 24px 8px #00000079;
     margin-right: 200px;
     margin-top: 50px;
     margin-left: 200px;
@@ -294,7 +319,7 @@ footer .social img {
     font-family: "Cormorant Garamond", serif;
     line-height: 1.5em;
     padding: 35px;
-    box-shadow: 5px 5px 5px 5px gray;
+    box-shadow: -5px 4px 24px 8px #00000079;;
     margin-right: 400px;
     margin-top: 140px;
     margin-left: 400px;
@@ -306,7 +331,7 @@ footer .social img {
     font-family: "Cormorant Garamond", serif;
     line-height: 1.5em;
     padding: 35px;
-    box-shadow: 5px 5px 5px 5px gray;
+    box-shadow: -5px 4px 24px 8px #00000079;;
     margin-right: 800px;
     margin-top: 160px;
     margin-left: 40px;
@@ -318,7 +343,7 @@ footer .social img {
     font-family: "Cormorant Garamond", serif;
     line-height: 1.5em;
     padding: 35px;
-    box-shadow: 5px 5px 5px 5px gray;
+    box-shadow: -5px 4px 24px 8px #00000079;;
     margin-right: 300px;
     margin-top: 70px;
     margin-left: 300px;
@@ -333,10 +358,240 @@ footer .social img {
     color: #C2C2C2;
 }
 .section-img {
-    box-shadow: 5px 5px 5px 5px gray;
+    box-shadow: -5px 4px 24px 8px #00000079;;
     float: right;
     margin: 50px;
     margin-top: 65px;
     height: 380px;
     position: relative;
+}
+.jewelry-mid    {
+    display: grid;
+    position: relative;
+    margin: auto;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.circle-chain   {
+    margin: 200px 0;
+    grid-column: 1/3;
+    grid-row: 1;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    padding-right: 120px;
+    margin-right: 80px;
+    margin-top: -80px;
+}
+.white  {
+    margin: 200px 0;
+    grid-column: 2/4;
+    grid-row: 1;
+    align-items: auto;
+    margin: auto;
+    text-align: center;
+    position: relative;
+    margin-left: 80px;
+    padding-left: 120px;
+    margin-top: 0px;
+}
+.flowers    {
+    margin: 200px 0;
+    grid-column: 1/3;
+    grid-row: 2;
+    align-items: auto;
+    margin: auto;
+    text-align: center;
+    position: relative;
+    padding-right: 120px;
+    margin-right: 80px;
+    margin-top: -80px;
+    margin-bottom: -50px;
+}
+.twobraclet    {
+    margin: 200px 0;
+    grid-column: 2/4;
+    grid-row: 2;
+    align-items: auto;
+    margin: auto;
+    text-align: center;
+    position: relative;
+    margin-left: 80px;
+    padding-left: 120px;
+    margin-top: 0px;
+    margin-bottom: -50px;
+}
+
+.main-jewelry{
+    width: 60%;
+    border: 10px solid #8C4B8F;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+.main-jewelry:hover {
+    opacity: .6 ;
+    transform: scale(1.1);
+}
+.para1, .para2, .para3, .para4, .circle-title, .white-title, .two-title, .flowers-title  {
+    text-align: center;
+}
+.para1  {
+    background-color: #4B2B5E;
+    margin-left: 150px;
+    margin-right: 150px;
+    padding: 15px;
+    line-height: 35px;
+    color: #C2C2C2;
+    border-radius: 5px;
+} 
+.para2 {
+    background-color: #4B2B5E;
+    margin-left: 150px;
+    margin-right: 150px;
+    padding: 15px;
+    line-height: 35px;
+    color: #C2C2C2;
+    border-radius: 5px;
+}
+.para3  {
+    background-color: #4B2B5E;
+    margin-left: 150px;
+    margin-right: 150px;
+    padding: 15px;
+    line-height: 35px;
+    color: #C2C2C2;
+    border-radius: 5px;
+    margin-bottom: -500px;
+}
+.para4  {
+    background-color: #4B2B5E;
+    margin-left: 150px;
+    margin-right: 150px;
+    padding: 15px;
+    line-height: 35px;
+    color: #C2C2C2;
+    border-radius: 5px;
+    margin-bottom: -500px;
+}
+.circles    {
+    margin-top: 50px;
+    margin-left: 50px;
+    width: 50%;
+    border: 10px solid #8C4B8F;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+.circlechain-h2 {
+    float:right;
+    margin-right: 80px;
+    margin-top: 280px;
+    
+}   
+.circlechain-p  {
+    float: right;
+    margin-left: 900px;
+    margin-top: -600px;
+    line-height: 50px;
+    background-color: #4B2B5E;
+    color: #C2C2C2;
+    padding: 10px;
+    border-radius: 5px;
+}
+.costchain  {
+    float: right;
+    margin-right: 230px;
+    margin-top: -360px;
+    line-height: 50px;
+    font-size: 35px;
+}
+.flowers-img    {
+    margin-top: 50px;
+    margin-left: 50px;
+    width: 50%;
+    border: 10px solid #8C4B8F;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364; 
+}
+.flowers-h2 {
+    float:right;
+    margin-right: 140px;
+    margin-top: 250px;    
+}
+.flowers-p  {
+    float: right;
+    margin-left: 900px;
+    margin-top: -550px;
+    line-height: 50px;
+    background-color: #4B2B5E;
+    color: #C2C2C2;
+    padding: 10px;
+    border-radius: 5px;   
+}
+.costflowers    {
+    float: right;
+    margin-right: 230px;
+    margin-top: -260px;
+    line-height: 50px;
+    font-size: 35px;
+}
+.twobraclets-img    {
+    margin-top: 50px;
+    margin-left: 50px;
+    width: 50%;
+    border: 10px solid #8C4B8F;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364; 
+}
+.twobraclets-h2 {
+    float:right;
+    margin-right: 130px;
+    margin-top: 160px;   
+}
+.twobraclets-p  {
+    float: right;
+    margin-left: 900px;
+    margin-top: -420px;
+    line-height: 50px;
+    background-color: #4B2B5E;
+    color: #C2C2C2;
+    padding: 10px;
+    border-radius: 5px;    
+}
+.costtwobraclets    {
+    float: right;
+    margin-right: 230px;
+    margin-top: -130px;
+    line-height: 50px;
+    font-size: 35px;   
+}
+.white-img  {
+    margin-top: 50px;
+    margin-left: 50px;
+    width: 50%;
+    border: 10px solid #8C4B8F;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364; 
+}
+.white-h2   {
+    float:right;
+    margin-right: 80px;
+    margin-top: 180px;    
+}
+.white-p    {
+    float: right;
+    margin-left: 900px;
+    margin-top: -400px;
+    line-height: 50px;
+    background-color: #4B2B5E;
+    color: #C2C2C2;
+    padding: 10px;
+    border-radius: 5px;  
+}
+.costwhite  {
+    float: right;
+    margin-right: 230px;
+    margin-top: -160px;
+    line-height: 50px;
+    font-size: 35px;  
 }
